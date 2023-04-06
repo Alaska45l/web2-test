@@ -122,3 +122,25 @@ h1 {
 }
 
 /* Ejercicio 3 */
+
+.buttons {
+  margin: 8px 0 21px 0;
+}
+
+.buttons a {
+  display: inline;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  color: #fff;
+  background-color: #253336;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  transition: all 0.3s ease;
+  border-radius: 8px;
+}
+
+.buttons a:hover {
+  background-color: #020c0e;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
