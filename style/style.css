@@ -1,30 +1,124 @@
-* {
-    font-family: Arial, Helvetica, sans-serif;
-    margin: 0;
-}
-
 body {
-    background-color: #2f2f2f;
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background-color: #020c0e;
 }
 
 .container {
-    width: 300px;
-    height: 330px;
-    background-color: #ffc95a;
-    margin: 75px auto;
-    border-radius: 35px;
-    color: #2f2f2f;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 20px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  background-color: #ffc95a;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
 
 h1 {
-    padding-top: 15px;
-    text-align: center;
-    border-bottom: 3px solid #2f2f2f;
-
+  margin: 0;
+  margin-bottom: 15px;
+  font-size: 36px;
+  font-weight: bold;
+  text-align: center;
+  color: #333;
 }
 
-li {
-    padding-top: 15px;
-    list-style: none;
-    font-size: 21px;
+/* INDEX */
+
+.index_ul {
+  margin: 20px;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
 }
+
+.index_button {
+  margin: 10px;
+}
+
+.index_button a {
+  display: block;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  color: #fff;
+  background-color: #253336;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  transition: all 0.3s ease;
+}
+
+.index_button a:hover {
+  background-color: #020c0e;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+/* Ejercicio 1 */
+
+.cat_ul li {
+  list-style: none;
+  margin-left: -50px;
+  font-size: 21px;
+  padding-bottom: 12px;
+}
+
+/* Ejercicio 2 */
+
+.type_cat label {
+  display: block;
+  font-size: 16px;
+  text-align: center;
+  margin-bottom: 8px;
+  font-weight: 600;
+}
+
+.input_cat {
+  display: block;
+  margin-bottom: 8px;
+  padding: 4px;
+  width: 300px;
+  border-radius: 8px;
+}
+
+.form_submit {
+  display: block;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  color: #fff;
+  background-color: #253336;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  transition: all 0.3s ease;
+  margin: 15px auto 0px;
+  border-radius: 8px;
+}
+
+.form_submit:hover {
+  background-color: #020c0e;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.cat_result h2 {
+  font-size: 16px;
+  text-align: center;
+}
+
+.cat_result p {
+  font-size: 16px;
+  text-transform: uppercase;
+  font-weight: 600;
+  background-color: #020c0e;
+  padding: 15px;
+  color: #ffc95a;
+  border-radius: 35px;
+  text-align: center;
+}
+
+/* Ejercicio 3 */
