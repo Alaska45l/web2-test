@@ -40,24 +40,34 @@ nav {
 }
 
 .logo a {
-  font-size: 2rem;
+  overflow: scroll;
   text-decoration: none;
+  padding: 10px;
+  border-radius: 5px;
   color: #ffc95a;
-  margin-right: 15px;
+  margin-right: 45px;
+}
+
+.logo a:hover {
+  background-color: #ffc95a;
+  color: #333;
 }
 
 .menu {
   margin: 0 auto;
+  overflow: auto;
 }
+
 .menu ul {
   display: flex;
   list-style: none;
   padding: 0;
-  font-size: 1.2vh;
+  min-width: fit-content;
 }
 
 .menu li {
   margin-right: 20px;
+  min-width: 50px;
 }
 
 .menu li:last-child {
@@ -111,7 +121,7 @@ footer {
 
 .footer-links li a {
   border: 1px solid #ffc95a;
-  padding: 8px;
+  padding: 15px 8px;
   border-radius: 8px;
   color: #ffc95a;
   text-decoration: none;
@@ -123,6 +133,14 @@ footer {
   background-color: #ffc95a;
 }
 
+.footer_github {
+  margin-left: 8px;
+  margin-bottom: -2px;
+}
+
+.footer_github:hover {
+  color: #020c0e;
+}
 
 /* INDEX */
 
@@ -333,5 +351,28 @@ footer {
 
 .IMCat_result_container h2 {
   text-align: center;
+}
 
+/* exercise 6 */
+
+.container-exercise_6 {
+  overflow: auto;
+  margin: 15px;
+
+}
+
+.container-exercise_6 table {
+  color: #ffc95a;
+  text-align: center;
+  border-collapse: collapse;
+}
+
+th {
+  color: #020c0e;
+  background-color: #ffc95a;
+}
+
+tr, td, th {
+  border: 1px solid #ffc95a;
+  padding: 5px;
 }

@@ -6,14 +6,14 @@
     <h1>UpCAT</h1>
     <div class="cat_result">
       <?php
-      if (!empty($_POST)) {
+      if (!isset($_POST)) {
         $name = $_POST['name'];
         $year = $_POST['year'];
         $color = $_POST['color'];
         echo ('<div><h2>Nombre del gato </h2><p>' . $name) . '</p></div>';
         echo ('<div><h2>Edad del gato </h2><p>' . $year) . ' años</p></div>';
         echo ('<div><h2>Color del gato </h2><p>' . $color) . '</p></div>';
-      } else {
+      } else { 
       ?>
     </div>
     <form action="exercise_3.php" method="post" class="type_cat">
@@ -23,7 +23,7 @@
       <input type="submit" class="form_submit">
     </form>
   <?php } ?>
-  </div>
+  </div></div>
   <?php include '../static/includes/footer.php' ?>
 </body>
 

@@ -1,4 +1,5 @@
 # Trabajo Practico 1 - Web 2 - 2023
+
 ## Resumen del Trabajo Práctico:
 
 El Trabajo Práctico 1 tiene como objetivo introducir al estudiante en el lenguaje de programación PHP y sus conceptos. Se realizarán ejercicios prácticos en los que se utilizarán formularios HTML para enviar datos al servidor y PHP para procesarlos y generar respuestas dinámicas.
@@ -20,4 +21,4 @@ Los ejercicios a realizar son los siguientes:
 
 En resumen, el Trabajo Práctico 1 permitirá al estudiante familiarizarse con los conceptos básicos de PHP y cómo utilizarlos para generar páginas dinámicas y procesar datos enviados desde formularios HTML. También se abordarán temas avanzados como validaciones de datos, llamados AJAX y el uso de diferentes elementos en formularios HTML.
 
-### Alaska Gonzalez
+###### Alaska Gonzalez - TUDAI Unicen Exactas

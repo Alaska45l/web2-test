@@ -1,18 +1,42 @@
 <?php include '../static/includes/head.php' ?>
 
 <body>
+
   <?php include '../static/includes/nav.php' ?>
-  <div class="container">
+  <div class="container container-exercise_6">
     <h1>MathCAT</h1>
-    <table>
-      <thead>
+    <?php
+    if (!empty($_POST)) {
+      $limite = $_POST['math'];
 
-      </thead>
-      <tbody>
-
-      </tbody>
-    </table>
-    </form>
+      echo "<table>";
+      echo "<tr><th></th>";
+  
+      for ($i = 1; $i <= $limite; $i++) {
+        echo "<th>$i</th>";
+      }
+  
+      echo "</tr>";
+  
+      for ($i = 1; $i <= $limite; $i++) {
+        echo "<tr>";
+        echo "<th>$i</th>";
+  
+        for ($j = 1; $j <= $limite; $j++) {
+          echo "<td>" . ($i * $j) . "</td>";
+        }
+  
+        echo "</tr>";
+      }
+  
+      echo "</table>";
+    } else {
+    ?>
+      <form action="exercise_6.php" method="post" class="type_cat">
+        <label for="math">Ingrese el limite de la tabla</label><input class="input_cat" type="number" name="math"></label>
+        <input type="submit" class="form_submit">
+      </form>
+    <?php } ?>
   </div>
   <?php include '../static/includes/footer.php' ?>
 </body>

@@ -36,7 +36,7 @@
       Ademas, se deberá incluir una barra de navegación para:
     </p>
     <ul>
-      <li>Acceder a una sección <strong>número pi</strong>: esta sección debe mostrar mostrar una descripción de lo que representa este número y su valor. Investigue diferentes formas de obtener este valor en PHP.
+      <li>Acceder a una sección <strong>número &#960;</strong>: esta sección debe mostrar mostrar una descripción de lo que representa este número y su valor. Investigue diferentes formas de obtener este valor en PHP.
       </li>
       <li>Acceder a una sección about que indique los creadores de la calculadora. Si le indicamos con un parametro un desarrollador en particular debe mostrar solo eso: ejemplo: about.php?developer=juan</li>
     </ul>
