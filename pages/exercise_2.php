@@ -17,19 +17,10 @@ $number = [1, 2, 3, 4, 5, 6];
 
 ?>
 
-<!DOCTYPE html>
-<html lang="es">
-
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="../style/style.css">
-  <title>Cat status</title>
-</head>
+<?php include '../static/includes/head.php' ?>
 
 <body>
-  <?php include 'nav.php' ?>
+  <?php include '../static/includes/nav.php' ?>
   <div class="container">
     <h1>CAT STATUS</h1>
     <ul class="cat_ul">
@@ -41,6 +32,7 @@ $number = [1, 2, 3, 4, 5, 6];
       ?>
     </ul>
   </div>
+  <?php include '../static/includes/footer.php' ?>
 </body>
 
 </html>

@@ -1,7 +1,7 @@
 body {
   margin: 0;
   padding: 0;
-  font-family: sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
   background-color: #020c0e;
 }
 
@@ -46,11 +46,14 @@ nav {
   margin-right: 15px;
 }
 
+.menu {
+  margin: 0 auto;
+}
 .menu ul {
   display: flex;
   list-style: none;
-  margin: 0;
   padding: 0;
+  font-size: 1.2vh;
 }
 
 .menu li {
@@ -72,6 +75,52 @@ nav {
 .menu a:hover {
   background-color: #ffc95a;
   color: #333;
+}
+
+/* FOOTER */
+
+footer {
+  background-color: #020c0e;
+  border: 1px solid #ffc95a;
+  color: #ffc95a;
+  padding: 20px;
+  font-size: 14px;
+  text-align: center;
+}
+
+.footer-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-links {
+  list-style: none;
+  display: flex;
+}
+
+.footer-links li {
+  margin-right: 20px;
+}
+
+.footer-links li:last-child {
+  margin-right: 0;
+}
+
+.footer-links li a {
+  border: 1px solid #ffc95a;
+  padding: 8px;
+  border-radius: 8px;
+  color: #ffc95a;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.footer-links li a:hover {
+  color: #020c0e;
+  background-color: #ffc95a;
 }
 
 
@@ -110,6 +159,34 @@ nav {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
 }
 
+.practico {
+  color: #ffc95a;
+}
+
+.practico_container {
+  max-width: 800px;
+}
+
+.practico_container h2 {
+  text-align: center;
+}
+
+.practico_container a {
+  color: #b28c3f;
+}
+
+.practico_container ol {
+  list-style-type: lower-alpha;
+}
+
+.practico_container ul {
+  list-style-type: square;
+}
+
+.practico_container p {
+  margin-top: 32px;
+}
+
 /* Ejercicio 2 */
 
 .cat_ul li {
@@ -124,11 +201,14 @@ nav {
   color: #ffc95a;
   font-family: monospace;
   white-space: pre;
+  font-size: 1.3vw;
 }
 
 .exercise_1_p {
   color: #ffc95a;
 }
+
+/* ejercicio 1 */
 
 /* Ejercicio 3 */
 
@@ -236,7 +316,7 @@ nav {
   border-radius: 8px;
   padding: 5px 10px;
   margin-top: 25px;
-  max-width: 540px;
+  max-width: 530px;
 }
 
 .form_nota img {

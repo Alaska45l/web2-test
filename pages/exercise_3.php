@@ -1,16 +1,7 @@
-<!DOCTYPE html>
-<html lang="es">
-
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="../style/style.css">
-  <title>Cat status</title>
-</head>
+<?php include '../static/includes/head.php' ?>
 
 <body>
-  <?php include 'nav.php' ?>
+  <?php include '../static/includes/nav.php' ?>
   <div class="container">
     <h1>UpCAT</h1>
     <div class="cat_result">
@@ -19,9 +10,9 @@
         $name = $_POST['name'];
         $year = $_POST['year'];
         $color = $_POST['color'];
-        echo ('<div><h2>Nombre del gato </h2><p>' . $name).'</p></div>';
-        echo ('<div><h2>Edad del gato </h2><p>' . $year).' años</p></div>';
-        echo ('<div><h2>Color del gato </h2><p>' . $color).'</p></div>';
+        echo ('<div><h2>Nombre del gato </h2><p>' . $name) . '</p></div>';
+        echo ('<div><h2>Edad del gato </h2><p>' . $year) . ' años</p></div>';
+        echo ('<div><h2>Color del gato </h2><p>' . $color) . '</p></div>';
       } else {
       ?>
     </div>
@@ -33,6 +24,7 @@
     </form>
   <?php } ?>
   </div>
+  <?php include '../static/includes/footer.php' ?>
 </body>
 
 </html>

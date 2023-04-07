@@ -1,16 +1,4 @@
-<!DOCTYPE html>
-<html lang="es">
-
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="../style/style.css">
-  <title>Practico 1</title>
-</head>
-
-<body>
-  <div class="container">
+<div class="container">
     <div class="cat_ascii">
                                                                                          \`*-.                   
                                                                                           )  _`-.                
@@ -29,20 +17,3 @@ $$ |  $$ |$$       |$$ |$$ |$$    $$/       $$ |      $$ |  $$ |$$ |            
 $$/   $$/  $$$$$$$/ $$/ $$/  $$$$$$/        $$/       $$/   $$/ $$/       
     </div>
 </div>
-  <div class="container">
-    <h1>EJERCICIOS</h1>
-    <ul class="index_ul">
-      <li class="index_button"><a href="static/exercise_1.php">Ir al ejercicio 1</a></li>
-      <li class="index_button"><a href="static/exercise_2.php">Ir al ejercicio 2</a></li>
-      <li class="index_button"><a href="static/exercise_3.php">Ir al ejercicio 3</a></li>
-      <li class="index_button"><a href="static/exercise_4.php">Ir al ejercicio 4</a></li>
-      <li class="index_button"><a href="static/exercise_5.php">Ir al ejercicio 5</a></li>
-      <li class="index_button"><a href="static/exercise_6.php">Ir al ejercicio 6</a></li>
-      <li class="index_button"><a href="static/exercise_7.php">Ir al ejercicio 7</a></li>
-      <li class="index_button"><a href="static/exercise_8.php">Ir al ejercicio 8</a></li>
-      <li class="index_button"><a href="static/exercise_9.php">Ir al ejercicio 9</a></li>
-    </ul>
-  </div>
-</body>
-
-</html>

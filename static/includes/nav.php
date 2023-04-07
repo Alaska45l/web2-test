@@ -1,6 +1,6 @@
 <nav>
   <div class="logo">
-    <a href="../index.html">Inicio</a>
+    <a href="../index.php">開始</a>
   </div>
   <div class="menu">
     <ul>
