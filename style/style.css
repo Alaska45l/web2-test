@@ -12,8 +12,8 @@ body {
   flex-direction: column;
   margin: 20px;
   padding: 20px;
-  border: 1px solid #ccc;
-  background-color: #ffc95a;
+  border: 1px solid #ffc95a;
+  background-color: #020c0e;
   border-radius: 10px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
@@ -24,8 +24,56 @@ h1 {
   font-size: 36px;
   font-weight: bold;
   text-align: center;
+  color: #ffc95a;
+}
+
+/* nav */
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #020c0e;
+  border: 1px solid #ffc95a;
+  color: #020c0e;
+  padding: 20px;
+}
+
+.logo a {
+  font-size: 2rem;
+  text-decoration: none;
+  color: #ffc95a;
+  margin-right: 15px;
+}
+
+.menu ul {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.menu li {
+  margin-right: 20px;
+}
+
+.menu li:last-child {
+  margin-right: 0;
+}
+
+.menu a {
+  text-decoration: none;
+  color: #ffc95a;
+  font-weight: bold;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.menu a:hover {
+  background-color: #ffc95a;
   color: #333;
 }
+
 
 /* INDEX */
 
@@ -48,28 +96,41 @@ h1 {
   padding: 10px 20px;
   text-align: center;
   text-decoration: none;
-  color: #fff;
-  background-color: #253336;
+  color: #ffc95a;
+  background-color: #020c0e;
+  border: 1px solid #ffc95a;
   border-radius: 5px;
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
   transition: all 0.3s ease;
 }
 
 .index_button a:hover {
-  background-color: #020c0e;
+  background-color: #ffc95a;
+  color: #020c0e;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
 }
 
-/* Ejercicio 1 */
+/* Ejercicio 2 */
 
 .cat_ul li {
   list-style: none;
   margin-left: -50px;
   font-size: 21px;
   padding-bottom: 12px;
+  color: #ffc95a;
 }
 
-/* Ejercicio 2 */
+.cat_ascii {
+  color: #ffc95a;
+  font-family: monospace;
+  white-space: pre;
+}
+
+.exercise_1_p {
+  color: #ffc95a;
+}
+
+/* Ejercicio 3 */
 
 .type_cat label {
   display: block;
@@ -77,6 +138,7 @@ h1 {
   text-align: center;
   margin-bottom: 8px;
   font-weight: 600;
+  color: #ffc95a;
 }
 
 .input_cat {
@@ -92,22 +154,33 @@ h1 {
   padding: 10px 20px;
   text-align: center;
   text-decoration: none;
-  color: #fff;
-  background-color: #253336;
-  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  color: #ffc95a;
+  background-color: #020c0e;
+  box-shadow: 0 0 5px rgba(255, 255, 255, 0.2);
   transition: all 0.3s ease;
   margin: 15px auto 0px;
   border-radius: 8px;
 }
 
 .form_submit:hover {
-  background-color: #020c0e;
+  background-color: #ffc95a;
+  color: #020c0e;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
 }
 
 .cat_result h2 {
   font-size: 16px;
+  color: #ffc95a;
+  padding: 8px;
   text-align: center;
+}
+
+.cat_result div {
+  padding: 15px;
+  border: 1px solid #ffc95a;
+  border-radius: 12px;
+  margin-top: 15px;
 }
 
 .cat_result p {
@@ -121,7 +194,15 @@ h1 {
   text-align: center;
 }
 
-/* Ejercicio 3 */
+.input_cat {
+  background-color: #020c0e;
+  border: 1px solid #ffc95a;
+  color: #ffc95a;
+  font-size: 16px;
+  text-align: center;
+}
+
+/* Ejercicio 4 */
 
 .buttons {
   margin: 8px 0 21px 0;
@@ -129,11 +210,12 @@ h1 {
 
 .buttons a {
   display: inline;
+  margin: 0 5px;
   padding: 10px 20px;
   text-align: center;
   text-decoration: none;
-  color: #fff;
-  background-color: #253336;
+  color: #020c0e;
+  background-color: #ffc95a;
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
   transition: all 0.3s ease;
   border-radius: 8px;
@@ -141,6 +223,35 @@ h1 {
 
 .buttons a:hover {
   background-color: #020c0e;
+  color: #ffc95a;
+  border: 1px solid #ffc95a;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
 }
 
+/* ejercicio 5 */
+
+.form_nota {
+  color: #ffc95a;
+  border: 1px solid #ffc95a;
+  border-radius: 8px;
+  padding: 5px 10px;
+  margin-top: 25px;
+  max-width: 540px;
+}
+
+.form_nota img {
+  width: 250px;
+  padding-right: 15px;
+  margin-right: 15px;
+  border-right: 1px solid #ffc95a;
+  float: left;
+}
+
+.IMCats_result {
+  color: #ffc95a;
+}
+
+.IMCat_result_container h2 {
+  text-align: center;
+
+}

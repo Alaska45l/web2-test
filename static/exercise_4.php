@@ -40,14 +40,16 @@ $cantidadLista = $tamano;
 </head>
 
 <body>
+  <?php include 'nav.php' ?>
+
   <div class="container">
     <h1>CAT STATUS</h1>
     <div class="buttons">
       <?php
-      echo "<a href='?tamano=2'>2 Gatos</a>";
-      echo "<a href='?tamano=4'>4 Gatos</a>";
-      echo "<a href='?tamano=6'>6 Gatos</a>";
-      echo "<a href='?tamano=8'>8 Gatos</a>";
+      echo "<a href='?tamano=2'>2 CATS</a>";
+      echo "<a href='?tamano=4'>4 CATS</a>";
+      echo "<a href='?tamano=6'>6 CATS</a>";
+      echo "<a href='?tamano=8'>8 CATS</a>";
       ?>
     </div>
     <ul class="cat_ul">

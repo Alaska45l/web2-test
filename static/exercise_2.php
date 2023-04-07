@@ -29,6 +29,7 @@ $number = [1, 2, 3, 4, 5, 6];
 </head>
 
 <body>
+  <?php include 'nav.php' ?>
   <div class="container">
     <h1>CAT STATUS</h1>
     <ul class="cat_ul">
