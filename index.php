@@ -14,6 +14,8 @@
       <li class="index_button"><a href="pages/exercise_7.php">問題7に進</a></li>
       <li class="index_button"><a href="pages/exercise_8.php">問題8に進</a></li>
       <li class="index_button"><a href="pages/exercise_9.php">問題9に進</a></li>
+      <li class="index_button"><a href="pages/exercise_10.php">問題10に進</a></li>
+      <li class="index_button"><a href="pages/exercise_11.php">問題11に進</a></li>
     </ul>
   </div>
   <?php include 'static/includes/practico.php' ?>

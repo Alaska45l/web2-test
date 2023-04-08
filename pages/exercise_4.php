@@ -46,7 +46,7 @@ $cantidadLista = $tamano;
     <ul class="cat_ul">
       <?php
       for ($i = 0; $i < $cantidadLista; $i++) {
-        $list = '<li> ' . $number[$i] . ' - ' . $cats_status[$i] . '</li>';
+        $list = "<li>$number[$i] - $cats_status[$i]</li>";
         echo $list;
       }
       ?>

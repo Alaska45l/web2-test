@@ -46,6 +46,7 @@ nav {
   border-radius: 5px;
   color: #ffc95a;
   margin-right: 45px;
+  font-size: 32px;
 }
 
 .logo a:hover {
@@ -67,7 +68,7 @@ nav {
 
 .menu li {
   margin-right: 20px;
-  min-width: 50px;
+  min-width: 70px;
 }
 
 .menu li:last-child {
@@ -237,6 +238,11 @@ footer {
   margin-bottom: 8px;
   font-weight: 600;
   color: #ffc95a;
+  margin-top: 30px;
+}
+
+.type_cat label:first-child {
+  margin-top: 20px;
 }
 
 .input_cat {
@@ -254,16 +260,14 @@ footer {
   text-decoration: none;
   color: #ffc95a;
   background-color: #020c0e;
-  box-shadow: 0 0 5px rgba(255, 255, 255, 0.2);
   transition: all 0.3s ease;
-  margin: 15px auto 0px;
+  margin: 25px auto 0px;
   border-radius: 8px;
 }
 
 .form_submit:hover {
   background-color: #ffc95a;
   color: #020c0e;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
   cursor: pointer;
 }
 
@@ -367,7 +371,7 @@ footer {
   border-collapse: collapse;
 }
 
-th {
+thead{
   color: #020c0e;
   background-color: #ffc95a;
 }
@@ -376,3 +380,21 @@ tr, td, th {
   border: 1px solid #ffc95a;
   padding: 5px;
 }
+
+tbody {
+  color: #ffc95a;
+}
+
+/* ejercicio 7 */
+.container-exercise7 {
+  overflow: auto;
+  padding-bottom: 100px;
+}
+
+
+.CATompound-container table {
+  text-align: center;
+  border-collapse: collapse;
+  margin: 0 auto;
+}
+

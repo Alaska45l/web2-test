@@ -10,17 +10,17 @@
       $limite = $_POST['math'];
 
       echo "<table>";
-      echo "<tr><th></th>";
+      echo "<tr><th>-</th>"; // cuadro vacio para que quede ordenada
   
       for ($i = 1; $i <= $limite; $i++) {
-        echo "<th>$i</th>";
+        echo "<th>$i</th>"; // crea y ordena la primera tabla
       }
   
       echo "</tr>";
   
       for ($i = 1; $i <= $limite; $i++) {
         echo "<tr>";
-        echo "<th>$i</th>";
+        echo "<th>$i</th>"; // crea y ordena la primera fila
   
         for ($j = 1; $j <= $limite; $j++) {
           echo "<td>" . ($i * $j) . "</td>";
