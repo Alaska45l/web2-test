@@ -18,7 +18,7 @@
       <li class="index_button"><a href="pages/exercise_11.php">問題11に進</a></li>
     </ul>
   </div>
-  <?php include 'static/includes/practico.php' ?>
+  <?php include 'static/includes/practico.html' ?>
   <?php include 'static/includes/footer.php' ?>
 </body>
 
