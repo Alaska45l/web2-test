@@ -16,4 +16,5 @@
       <li><a href="exercise_10.php">E. 10</a></li>
       <li><a href="exercise_11.php">E. 11</a></li>
     </ul>
+  </div>
 </nav>

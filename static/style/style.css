@@ -371,6 +371,11 @@ footer {
   border-collapse: collapse;
 }
 
+.container-exercise_6 table th {
+  color: #020c0e;
+  background-color: #ffc95a;
+}
+
 thead{
   color: #020c0e;
   background-color: #ffc95a;
@@ -400,4 +405,10 @@ tbody {
 
 /* ejercicio 8 */
 
+.container-exercise_8 h2 {
+  color: #ffc95a;
+}
 
+.container-exercise_8 p {
+  color: #ffc95a;
+}
